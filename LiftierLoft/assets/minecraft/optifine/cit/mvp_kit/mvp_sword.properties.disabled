@@ -1,0 +1,6 @@
+type=item
+items=minecraft:diamond_sword
+hand=main
+texture=singlesaberhilt.png
+model=item/singlebladehilt
+nbt.display.Name=ipattern:*[*MVP*]*Sword
