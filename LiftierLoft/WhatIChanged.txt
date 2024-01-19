@@ -6,7 +6,7 @@ Models folder contains templates that I've tried to use in the past, however not
 
 Optifine Folder is where all the Custom Item Textures (CITs) are. Going into the "cit" folder within you will see many files that I will explain in order that you can see the textures in-game.
 
-Lobby: When in the lobby, all the items in the hotbar are changed via looking at the NBT data. The compass for server navigator, the dyes used for player visibility, and the survey icon has been changed.  In the future I'd like to change the GUIs too, but I don't know how to do it yet.
+Lobby: When in the lobby, all the items in the hotbar are changed via looking at the NBT data. The compass for server navigator, the dyes used for player visibility, and the survey icon has been changed. I have added an icon for Townscape. In the future I'd like to change the GUIs too, but I don't know how to do it yet.
 
 Starter Kit: Adds all the textures I have for the Starter Kit so far. Includes the Axe, Pickaxe, Shovel, and Sword so far, and once I make the Armor set, I'll add those too.
 
