@@ -12,5 +12,5 @@ jobs:
         run: |
           whoami
           rd C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft
-          mk C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft
+          md C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft
           xcopy LiftierLoft C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft /E
