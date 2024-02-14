@@ -8,9 +8,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: test line
-        run: |
-          whoami
-          rd C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft
-          md C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft
-          xcopy LiftierLoft C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft /E
+      - name: Remove old resource pack
+        run: rmdir C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft
+
+      - name: Create new directory
+        if: always()
+        run:  mkdir C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft
+
+      - name: Copy files
+        if: always()
+        run:  xcopy LiftierLoft C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft /E
