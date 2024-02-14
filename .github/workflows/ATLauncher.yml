@@ -1,0 +1,20 @@
+name: ATLauncher
+
+on: [push]
+
+jobs:
+  test-run:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Remove old resource pack
+        run: rmdir C:\Users\ajhoc\AppData\Roaming\ATLauncher\instances\Minecraft1201withFabric\resourcepacks\LiftierLoft
+
+      - name: Create new directory
+        if: always()
+        run:  mkdir C:\Users\ajhoc\AppData\Roaming\ATLauncher\instances\Minecraft1201withFabric\resourcepacks\LiftierLoft
+
+      - name: Copy files
+        if: always()
+        run:  xcopy LiftierLoft C:\Users\ajhoc\AppData\Roaming\ATLauncher\instances\Minecraft1201withFabric\resourcepacks\LiftierLoft /E
