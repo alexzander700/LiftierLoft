@@ -11,4 +11,4 @@ jobs:
       - name: test line
         run: |
           whoami
-          xcopy LiftierLoft C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks /E
+          xcopy LiftierLoft C:\Users\ajhoc\AppData\Roaming\.minecraft\resourcepacks\LiftierLoft /E
