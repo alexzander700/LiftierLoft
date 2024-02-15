@@ -3,7 +3,7 @@ name: ATLauncher
 on: [push]
 
 jobs:
-  test-run:
+  ATLauncher-run:
     runs-on: Desktop
     steps:
       - uses: actions/checkout@v4
