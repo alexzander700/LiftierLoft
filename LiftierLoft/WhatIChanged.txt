@@ -20,6 +20,8 @@ Factions: Any faction that wants me to add their equipment will have to get in t
 	Chicken Empire: This texture was made during the "Chickens vs Sue" battle. The Chicken soldiers could name their helmet anything as long as they had the words "Chicken Empire" in the name, and it would change the helmet to look like a Chicken.
 	Hythe: All the Tower Keepers have armor and swords relating to their individual crystals.
 	Woodland Nations: This armor set is made to represent the factions that have allied with each other, known as the Woodland Nations. As long as "Woodland" is anywhere in the name, it will convert the armor into a set of Aged Oak that has a Netherite Trim.
+	OMS: Made the OMS armor set a standard set of netherite trimmed with Crimson.
+	Hamrrito: Added a Blue and Yellow trimmed armor set for Hamrrito to represent their banner.
 
 
 (Spoilers for Hythe Lore below)
